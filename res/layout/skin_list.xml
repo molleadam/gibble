@@ -1,0 +1,60 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    
+				<Button 
+				    android:onClick="onChangeSkin"
+				    android:layout_width="40dp"
+	                android:layout_height="40dp"
+	                android:layout_marginRight="5dp"
+	                android:background="@drawable/skin_button"
+	                android:id="@+id/skin1"
+	                android:text="skin1"
+	                android:textSize="12dp"
+	                />
+
+				<Button 
+				    android:onClick="onChangeSkin"
+				    android:layout_width="40dp"
+	                android:layout_height="40dp"
+	                android:layout_marginRight="5dp"
+	                android:background="@drawable/skin_button"
+	                android:id="@+id/skin2"
+	                android:text="skin2"
+	                android:textSize="12dp"
+	                />
+				
+				<Button 
+				    android:onClick="onChangeSkin"
+				    android:layout_width="40dp"
+	                android:layout_height="40dp"
+	                android:layout_marginRight="5dp"
+	                android:background="@drawable/skin_button"
+	                android:id="@+id/skin3"
+	                android:text="skin3"
+	                android:textSize="12dp"
+	                />
+				
+				<Button 
+				    android:onClick="onChangeSkin"
+				    android:layout_width="40dp"
+	                android:layout_height="40dp"
+	                android:layout_marginRight="5dp"
+	                android:background="@drawable/skin_button"
+	                android:id="@+id/skin4"
+	                android:text="skin4"
+	                android:textSize="12dp"
+	                />
+				
+				<Button 
+				    android:onClick="onChangeSkin"
+				    android:layout_width="40dp"
+	                android:layout_height="40dp"
+	                android:layout_marginRight="5dp"
+	                android:background="@drawable/skin_button"
+	                android:id="@+id/skin5"
+	                android:text="skin5"
+	                android:textSize="12dp"
+	                />
+				    																											
+</merge>

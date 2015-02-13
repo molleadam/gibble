@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/lib/com.example.gibble"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+	<com.example.gibble.MyTextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ci troviamo qui :"
+       	android:textSize="30dp"
+        android:clickable="true"
+        android:textColor="@android:color/white"
+        android:onClick="ShowDialogDetails"
+        custom:ttf_name="Roboto-Bold.ttf"
+        android:gravity="center"/>
+    
+    <com.example.gibble.PlaceTextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeTextView"
+        android:clickable="true"
+        android:onClick="changePlace"
+        android:textColor="@android:color/black"
+        custom:ttf_name="DroidSerif-Italic.ttf"
+        android:textSize="30dp"/>
+    
+    <com.example.gibble.HourTextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        custom:ttf_name="Roboto-Bold.ttf"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+    
+    <com.example.gibble.DateTextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:ttf_name="Roboto-Bold.ttf"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+    
+    
+</LinearLayout>

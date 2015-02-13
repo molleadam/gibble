@@ -1,0 +1,60 @@
+<LinearLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" 
+        >
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutImageContainer"
+            >
+        	<ImageView 
+	            android:id ="@+id/imageCroppedView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>   
+             
+        	
+			<TextView 
+    		    android:layout_alignParentRight = "true"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="Gibble App"
+        	    android:textSize="10dp"
+        	    android:layout_marginRight="10dp"
+        	    android:layout_marginTop="10dp"
+        	    android:textColor="@android:color/white"       	    
+        	    />  
+        	
+       	</RelativeLayout>
+        
+        <HorizontalScrollView 
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height ="wrap_content">
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        		<include layout="@layout/skin_list"/>	     	        
+            </LinearLayout>
+                
+            
+        </HorizontalScrollView>
+        
+        
+        <LinearLayout
+            
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation ="vertical"            
+            >
+        	<Button 
+        	    android:layout_gravity="center"
+	            android:id="@+id/shareButton"
+	            android:onClick="onShare"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Condividi"/>    
+        </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,50 @@
+<LinearLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" 
+        >
+        
+        
+        <ScrollView 
+            android:fadingEdge="none"
+            android:requiresFadingEdge="none"
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="370dp">
+            <HorizontalScrollView
+                android:fadingEdge="none"
+                android:requiresFadingEdge="none"
+                android:id="@+id/horizontalScrollview" 
+                android:gravity="center"
+                android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	>
+            	<ImageView 
+                    android:scaleType="matrix"
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                
+            </HorizontalScrollView>
+            
+        </ScrollView>
+        
+        <LinearLayout
+            
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation ="vertical"            
+            >
+        	<Button 
+        	    android:layout_gravity="center"
+	            android:id="@+id/cropButton"
+	            android:onClick="onCrop"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Ritaglia"/>    
+        </LinearLayout>
+        
+    </LinearLayout>

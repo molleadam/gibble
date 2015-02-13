@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/lib/com.example.gibble"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    
+    
+    >
+
+
+    <LinearLayout
+        android:layout_marginTop="23dp" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        >
+			<ImageView 
+			    android:id = "@+id/imageView"
+			    android:src="@drawable/icondrink"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    />
+	
+			<com.example.gibble.MyTextView
+			    android:clickable="true"
+			    android:onClick="ShowDialogDetails"
+			    android:textColor="@android:color/white"
+			    android:textSize="30dp" 
+			    android:id="@+id/statusTextView"
+			    android:layout_width="200dp"
+			    android:gravity="center"
+			    android:layout_height="wrap_content"
+			    android:text = "Scrivi testo"
+			    custom:ttf_name="Roboto-LightItalic.ttf"
+			    />
+
+			<ImageView 
+			    
+			    android:id = "@+id/imageView2"
+			    android:src="@drawable/icondrink"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    
+		
+			    />
+		        
+    </LinearLayout>
+	
+    <com.example.gibble.MyTextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/placeTextView"
+        custom:ttf_name="CHICS.ttf"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#9B0909"
+        android:text="Live From :"
+        />		
+	<com.example.gibble.PlaceTextView
+	    android:gravity="center"
+	    android:clickable="true"
+	    android:onClick="changePlace"
+	    android:textColor="@android:color/white"
+	    android:textSize="40dp"  
+	    android:layout_alignParentBottom="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:id="@+id/placeTextView"
+	    android:text="Scrivi luogo"
+	    custom:ttf_name="oscillat.ttf"
+	    android:textStyle="bold"
+	    android:layout_marginBottom="10dp"
+	    
+	    
+	    />
+    
+</RelativeLayout>

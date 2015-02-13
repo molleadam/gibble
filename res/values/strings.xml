@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gibble</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_crop">CropActivity</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="share_activity_decription">Scegli lo skin che fà più per te,modifica eventualmente il testo e condividi sui social network.</string>
+    <string name="main_activity_description">Carica la tua foto direttamente dalla tua fotocamera,oppure dalla tua directory personale</string>
+    <string name="crop_activity_description">Trascina la tua foto a destra o sinistra per definire il ritaglio della tua foto e poi clicca su &quot;Ritaglia&quot;.</string>
+    <string name="dialog_description">Questo popup ti consente di modificare il testo che hai appena toccato</string>
+    <string name="facebook_app_id">1387835421448816</string>
+    <string name="facebook_app_secret">a15e190eddae40d9627ecde0ae43d642</string>
+    <string name="title_activity_facebook_login">FacebookLoginActivity</string>
+    <string name="title_activity_change_place">ChangePlaceActivity</string>
+    
+
+</resources>
